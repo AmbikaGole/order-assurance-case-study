@@ -11,7 +11,7 @@ When the second step is missed and not caught before the supplier cutoff, the de
 - abnormal delivery volumes on a single day
 - extra handling and stock-room pressure
 - higher manual-handling risk for staff
-- 
+  
 ## Why existing practice falls short
 
 - Nothing independent of the person placing the order checks that both steps are complete.
