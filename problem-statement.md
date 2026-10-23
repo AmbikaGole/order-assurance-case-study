@@ -15,9 +15,9 @@ When the second step is missed and not caught before the supplier cutoff, the de
   
 ## Why existing practice falls short
 
-- Nothing independent of the person placing the order checks that both steps are complete.
-- Any control that relies on the same person remembering fails in the same way as the original process (a *dependent control*).
-- Recovery before the cutoff assumes someone is rostered early enough to act.
+- Nothing independent of the person placing the order checks that both steps are complete
+- Any control that relies on the same person remembering fails in the same way as the original process (a *dependent control*)
+- Recovery before the cutoff assumes someone is rostered early enough to act
 
 ## Objective
 
