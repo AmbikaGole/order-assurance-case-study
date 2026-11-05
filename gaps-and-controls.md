@@ -6,12 +6,12 @@ A running list of weaknesses found in the process or in the project's own design
 
 | ID | Gap | Why it matters | Found |
 |---|---|---|---|
-| G1 | **Dependent control.** An alert or log that relies on the person who forgot the second step fails in the same way as the original process. | A control must be independent of the failure it protects against. | Oct 2026 |
-| G2 | **Roster dependency.** The morning recovery window assumes someone is rostered before the cutoff. | On days with no early coverage, the safety net does not exist. | Oct 2026 |
-| G3 | **Status depends on time.** "At Risk" is only meaningful before the cutoff; after it, an order must be Complete, Recovered or Failed. | Status logic must use timestamps and the current time, not just flags. | Oct 2026 |
-| G4 | **Two kinds of failure.** "Never ordered" and "ordered but unconfirmed" have different root causes. | They need different fixes, so they are tracked separately. | Oct 2026 |
-| G5 | **No single owner.** Anyone working that day can place an order, so nobody is clearly responsible for completing step 2. | Shared responsibility makes it easy for each person to assume someone else will confirm. | Oct 2026 |
-| G6 | **Time-of-day risk.** An order placed late in the day leaves little time to notice a missing step 2 before the last shift ends. | Late orders may carry higher risk and should be tracked by placement time. | Oct 2026 |
+| G1 | **Dependent control.** An alert or log that relies on the person who forgot the second step fails in the same way as the original process. | A control must be independent of the failure it protects against. | Nov 2026 |
+| G2 | **Roster dependency.** The morning recovery window assumes someone is rostered before the cutoff. | On days with no early coverage, the safety net does not exist. | Nov 2026 |
+| G3 | **Status depends on time.** "At Risk" is only meaningful before the cutoff; after it, an order must be Complete, Recovered or Failed. | Status logic must use timestamps and the current time, not just flags. | Nov 2026 |
+| G4 | **Two kinds of failure.** "Never ordered" and "ordered but unconfirmed" have different root causes. | They need different fixes, so they are tracked separately. | Nov 2026 |
+| G5 | **No single owner.** Anyone working that day can place an order, so nobody is clearly responsible for completing step 2. | Shared responsibility makes it easy for each person to assume someone else will confirm. | Nov 2026 |
+| G6 | **Time-of-day risk.** An order placed late in the day leaves little time to notice a missing step 2 before the last shift ends. | Late orders may carry higher risk and should be tracked by placement time. | Nov 2026 |
 | G7 | *(add new gaps here as they appear)* | | |
 
 ## Control options considered
