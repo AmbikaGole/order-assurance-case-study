@@ -32,4 +32,3 @@ Detection probabilities for each control will be set in `assumptions.md` and tes
 
 - Layered controls are expected to be more robust than any single control.
 - Add anything new that comes up while building the data model or simulation.
-  
